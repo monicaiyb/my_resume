@@ -12,6 +12,6 @@ app.get('/resume', function (req, res) {
   })
   
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`)
 })
