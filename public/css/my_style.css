@@ -1,0 +1,67 @@
+* {
+    max-width: 700px;
+    align-items: center;
+    margin: auto;
+    font-family: Georgia;
+    color: #08415C;
+  }
+body{
+    background-color: #ADE1E5;
+    font-family: Georgia; 
+    color: #03191E;
+    align-content: center;
+}
+.resumebody {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: auto;
+    text-align: left;
+    
+  }
+.header{
+    margin: auto 0;
+    color: #08415C;
+    align-content: center;
+    height: 120px;
+    text-align: center;
+    
+  }
+  .header h1{text-transform: uppercase;}
+  .profile { letter-spacing: 2px; margin: 5px;}
+  .skills{
+    letter-spacing: 2px; margin: 5px;
+  }
+  .projects{
+    letter-spacing: 2px; margin: 5px;
+  }
+
+.contact{
+    background-color: #73AB84;
+    letter-spacing: 2px; margin: 5px;
+    padding:20px;
+    border-radius: 5px;
+}
+.contact h1{
+    align-content: center;
+
+}
+
+input, textarea {
+    border:2px, solid; 
+    
+    padding: 1em;
+    border-radius:5px;
+    display: block;
+    width: 80%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    resize: none;   
+ }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    
+    clear: both;
+    position: relative;
+  }
