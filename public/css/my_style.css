@@ -3,13 +3,14 @@
     align-items: center;
     margin: auto;
     font-family: Georgia;
-    color: #08415C;
+    color: #011936;
+    
   }
 body{
-    background-color: #ADE1E5;
+    background-color: #C0CAAD;
     font-family: Georgia; 
-    color: #03191E;
-    align-content: center;
+    color: #011936;
+    
 }
 .resumebody {
     display: inline-block;
@@ -19,14 +20,20 @@ body{
     
   }
 .header{
-    margin: auto 0;
-    color: #08415C;
-    align-content: center;
-    height: 120px;
-    text-align: center;
+    background-color: #7A82AB;
     
+    color: #011936;
+    height: 60px;
+  }
+  .header img{
+      align-self: baseline;
+      margin: 10px;
   }
   .header h1{text-transform: uppercase;}
+  .button{
+      background-color: #F78154;
+      width: 80px;
+  }
   .profile { letter-spacing: 2px; margin: 5px;}
   .skills{
     letter-spacing: 2px; margin: 5px;
@@ -36,12 +43,12 @@ body{
   }
 
 .contact{
-    background-color: #73AB84;
+    background-color: #307473;
     letter-spacing: 2px; margin: 5px;
     padding:20px;
     border-radius: 5px;
 }
-.contact h1{
+.form_cover h1{
     align-content: center;
     text-align: center;
 }
@@ -55,15 +62,21 @@ input, textarea {
     font-family: 'Merriweather', sans-serif;
     resize: none;   
  }
+ #input-submit{
+     background-color: #F78154;
+ }
  a { color: #990003 }
 
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 
 .footer {
-    height: 50px;
-    width: 100%;
-    
+    margin: 5px;
     clear: both;
     position: relative;
+    padding: 5px;
+    
+  }
+  .footer_text{
+      float: right;
   }
