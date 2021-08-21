@@ -29,14 +29,10 @@ app.use(express.static(__dirname + 'public'))
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.get('/resume', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(process.cwd() + "/public/views/index.html");
 })
-app.post("/resume", function (req, res) { // this will be used to send the emails
+app.post("/", function (req, res) { // this will be used to send the emails
   const output = `
   <p>You have a new contact request</p>
   
