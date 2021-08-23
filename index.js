@@ -77,6 +77,9 @@ app.post("/", function (req, res) { // this will be used to send the emails
 
 });
 
+app.get('/resume', function (req, res) {
+  res.sendFile(process.cwd() + "/public/views/landing.html");
+})
 
 app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`)
