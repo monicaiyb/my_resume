@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/', function (req, res) {
-  res.sendFile(process.cwd() + "/public/views/index.html");
+  res.sendFile(process.cwd() + "/public/views/page.html");
 })
 app.post("/", function (req, res) { // this will be used to send the emails
   const output = `
