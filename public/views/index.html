@@ -15,11 +15,12 @@
   </head>
 
   <body>
+    <div class="container">
     <div class="header">
       <!-- As a link -->
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light navbar-fixed-top">
         <div class="name">
-          <h4>Monica Iyabo</h4>
+          <h3>Monica Iyabo</h3>
           <h5>Software Developer</h5>
         </div>
         <div class="contact-info">
@@ -45,11 +46,11 @@
       </nav>
       <!-- As a heading -->
     </div>
-    <div class="doc">
+    
     
       
       
-      <div class="container">
+      <div class="doc">
         <!--// .contact-info -->
 
         <div class="profile" id="profile">
@@ -57,7 +58,7 @@
             <h5>Profile</h5>
           </div>
           <div class="profile_body">
-            <img src="./public/images/monica.jpg" height=200 class="rounded mx-auto d-block" alt="...">
+            <img src="../images/monica.jpg" height=200 class="rounded mx-auto d-block" alt="...">
             <p class="enlarge">
               I am junior Software developer MERN Stack, with projects web and mobile applications,I have over 1 years’ experience in software development for both mobile and web technologies working several software projects both for learning and for clients.
               I am seeking an opportunity that will further my skills both as a developer and an engineer.
@@ -107,7 +108,9 @@
               <h6>An Inventory system August 2021</h6>
               <p>
                 
-A web application to track raw materials to when products are made up to the final point where the products are sold to clients. 
+A web application to track raw materials to when products are made up to the final point where the products .cf:after {
+  clear: both; */
+} */are sold to clients. </p>
 <h6>African Money Tracker Application May 2021 to date</h6>
 <p>A mobile app: A financial management tool that tracks income and expenses, helps with budgeting and setting financial goals and also provides a few financial tips for the user.
   Learning facilitator at Codequeen bootcamp May 2021- June 2021
@@ -127,44 +130,37 @@ A web application to track raw materials to when products are made up to the fin
           </div>
         </div>
         <div class="contact" id="contact">
-          <form class="cf" method="POST" action="/resume" id="contact-form">
-            <h2>Contact Me</h2>
-
-            <div class="form_left">
-              <input
-                type="text"
-                id="name"
-                placeholder="Name"
-                class="name"
-                name="name"
-              />
-              <input
-                type="email"
-                id="email"
-                placeholder="Email address"
-                class="email"
-                name="email"
-              />
-              <input
-                type="text"
-                id="subject"
-                placeholder="Subject"
-                class="subject"
-                name="subject"
-              />
-              <textarea
-                name="message"
-                type="text"
-                id="message"
-                class="message"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <input type="submit" value="submit" id="input-submit" />
-          </form>
-        </div>
+     
+       <div><h6>Contact Form</h6></div>
+        <form class="cf" method="POST" action="/resume" id="contact-form">
+          <div class="form-group" >
+            <label >Name</label>
+            <input type="email" class="form-control name" id="exampleFormControlInput1" placeholder="Name" type="text"
+          
+            name="name" >
+          </div>
+          <div class="form-group">
+            <label >Email</label>
+            <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+          </div>
+          <div class="form-group">
+            <label >Subject</label>
+            <input type="email" class="form-control subject" id="exampleFormControlInput1" placeholder="Subject" name="subject">
+          </div>
+          
+          <div class="form-group">
+            <label >Message</label>
+            <textarea class="form-control message" id="exampleFormControlTextarea1"  name="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
-      <div class="footer">Monica creations</div>
+      </div>
+      <div class="footer"> <div class="navbar navbar-light bg-light navbar-fixed-bottom">
+        &COPY;
+        Monica Iyabo</div></div>
+      
+      
     </div>
     <script>
       function sendEmail(name, email, subject, message) {
